@@ -1,0 +1,14 @@
+<html ng-app="rsaApp">
+    <head>
+        <title>RSA Encryption</title>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+        <script src="angular-local-storage.js"></script>
+    </head>
+    <body>
+        <h1 align="center">RSA Encryption</h1>
+        <div ng-controller="rsaCtrl as ctrl" align="center">
+            <p>Stored text in result page -> <span ng-bind="ctrl.storedText"></span></p>
+        </div>
+    </body>
+</html>
